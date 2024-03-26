@@ -1,41 +1,50 @@
+/*Variables*/
+
+:root{
+    --blue-ligth1 : #e1f0fd;
+    --blue-ligth2 : #c7e1fb;
+    --blue-ligth3 : #93c3f7;
+}
+
 /*Color of the buttons*/
 
 .btn-blue-light1{
-    background-color:#e1f0fd;
+    background-color:var(--blue-ligth1);
     border-radius: 5px;
     border: solid 0px;
     width: 80px;
     height: 30px;
-    transition: opacity 0.3s ease;
+    transition: opacity 0.2s ease;
 }
 
 .btn-blue-light2{
-    background-color:#c7e1fb;
+    background-color:var(--blue-ligth2);
     border-radius: 5px;
     border: solid 0px;
     width: 80px;
     height: 30px;
-    transition: opacity 0.3s ease;
+    transition: opacity 0.2s ease;
 }
 
 .btn-blue-light3{
-    background-color:#93c3f7;
+    background-color:var(--blue-ligth3);
     border-radius: 5px;
     border: solid 0px;
-    width: 80px;
-    height: 30px;
-    transition: opacity 0.3s ease;
+    transition: opacity 0.2s ease;
 }
 
 /*Opacity of the buttons*/
 .btn-blue-light1:hover {
-    opacity: 0.5; /* Reducción de la opacidad al pasar el cursor */
+    opacity: 0.1; /* Reducción de la opacidad al pasar el cursor */
+    border: 1.5px solid grey;
 }
 
 .btn-blue-light2:hover {
-    opacity: 0.5; /* Reducción de la opacidad al pasar el cursor */
+    opacity: 0.1; /* Reducción de la opacidad al pasar el cursor */
+    border: 1.5px solid grey;
 }
 
 .btn-blue-light3:hover {
-    opacity: 0.5; /* Reducción de la opacidad al pasar el cursor */
+    opacity: 0.1; /* Reducción de la opacidad al pasar el cursor */
+    border: 1.5px solid grey;
 }
